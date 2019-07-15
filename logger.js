@@ -54,6 +54,12 @@ function createLogger(){
     
     slider.oninput = function(){
         logger.opacity = `${this.value/100}`
+        if(this.value == 0){
+            logger.style.zIndex = '-1'
+        }
+        else{
+             logger.style.zIndex = '99999'
+        }
     }
 
     btnClean = document.createElement("button")
