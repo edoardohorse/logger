@@ -56,7 +56,7 @@ function createLogger(){
         logger.opacity = `${this.value/100}`
     }
 
-    let btnClean = document.createElement("button")
+    btnClean = document.createElement("button")
     btnClean.value = "Clean"
     btnClean.textContent = "Clean"
     btnClean.onclick = function(){
