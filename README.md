@@ -1,5 +1,15 @@
 # Logger
 Inject a logger
+
+```javascript
+var script = document.createElement("script")
+script.src = "https://cdn.jsdelivr.net/gh/edoardohorse/logger/logger.js"
+script.type = "application/javascript"
+document.body.appendChild(script)
+
+```
+
+
 # Methods
 ## clearLogger()
 Clean all the content from logger
