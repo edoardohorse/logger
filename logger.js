@@ -24,6 +24,7 @@ function createCommands(){
     nav.style.width              = "100%"
     nav.style.height             = "40px"
     nav.style.backgroundColor    = "antiquewhite"
+    nav.style.zIndex             = "99999"
 }
 
 function createLogger(){
