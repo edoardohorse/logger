@@ -3,7 +3,7 @@ Inject a logger
 
 ```javascript
 var script = document.createElement("script")
-script.src = "https://cdn.jsdelivr.net/gh/edoardohorse/logger/logger.js"
+script.src = "https://cdn.jsdelivr.net/gh/edoardohorse/logger@1.0/logger.js"
 script.type = "application/javascript"
 document.body.appendChild(script)
 
