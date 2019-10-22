@@ -1,4 +1,4 @@
-let logger
+var logger
 let nav
 let slider
 let container
